@@ -1,0 +1,98 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.body_colour{
+    background-color: rgb(11, 25, 77);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.part1{
+    height: 100%;
+    width: 26%;
+}
+
+.part2{
+    height: 100%;
+    width: 64%;
+    background: rgba(0, 13, 255, 0);
+    background-image: url(images/coder_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.part3{
+    height: 100%;
+    width: 10%;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(90, 122, 237, 0.26);
+}
+
+.text{
+    position: absolute;
+    width: 40%;
+    left: 10%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.text h1{
+    font-size: 5vw;
+    line-height: 5.7vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: wheat;
+    letter-spacing: .5vw;
+}
+
+.small_img{
+    height: 30vh;
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(images/coder_2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.vertical_text{
+    position: absolute;
+    right: -40%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    z-index: 5;
+}
+
+
+.vertical_text h1{
+    font-size: 2.4vw;
+    font-weight: 400;
+    color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 0.1vw;
+    -webkit-text-stroke-color: white;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+    
+    
+}
